@@ -12,7 +12,17 @@ Please send a PR with any new ones you find.
 
 * [Disposable](https://github.com/0x19/disposable)
 * [Disposable Email Detector](https://www.disposable-email-detector.com)
+* [Firefox Relay](https://github.com/mozilla/fx-private-relay)
 * [Verifier](https://verifier.meetchopra.com/)
+
+
+## Services
+
+### Free tier
+
+* [Firefox Relay](https://relay.firefox.com/)
+
+
 
 ## Libraries
 
@@ -22,5 +32,22 @@ Please send a PR with any new ones you find.
 
 ### Go
 
-* [DED](https://github.com/namreg/ded)
+* [go-burner-email-providers](https://github.com/lindell/go-burner-email-providers)
 
+### NodeJs
+
+* [burner-email-providers](https://github.com/findie/burner-email-providers)
+
+### PHP
+
+#### Symfony
+
+* [secit-pl/validation-bundle](https://github.com/secit-pl/validation-bundle#burneremail)
+
+### Scala
+
+* [Burner4s](https://github.com/ariskk/burner4s)
+
+## Host your own
+
+* [Docker](https://hub.docker.com/r/emailhippo/dea-id-community-api-wesbos-v1)
