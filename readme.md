@@ -6,6 +6,16 @@ I'm okay with people using burner email addresses to get my free content, I just
 
 Please send a PR with any new ones you find. 
 
+## Merging upstream domains
+
+This repo is a fork of [wesbos/burner-email-providers](https://github.com/wesbos/burner-email-providers). It has diverged significantly from upstream and syncing the full fork should be done with care.
+
+To merge in domains from [ivolo/disposable-email-domains](https://github.com/ivolo/disposable-email-domains), run the script at [`merge-spam-domains/merge.rb`](merge-spam-domains/merge.rb). It downloads the remote list, merges it with the current `emails.txt`, deduplicates, sorts, verifies, and writes the result back.
+
+```
+ruby merge-spam-domains/merge.rb
+```
+
 ## APIs
 
 ### Free
